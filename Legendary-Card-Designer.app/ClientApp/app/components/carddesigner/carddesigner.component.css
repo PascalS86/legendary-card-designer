@@ -1,0 +1,124 @@
+.frame{
+    position:absolute; 
+    top:77px;
+    left: 30px;
+}
+
+.frame img {
+    height: 854px;
+    width: 628px;
+}
+.cardtitle{
+    position:absolute; 
+    top:calc(77px + 66px);
+    left:30px;
+    width: 628px;
+    color:darkgoldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22pt;
+    text-align: center;
+}
+.card-sub-title{
+    position:absolute; 
+    top:calc(77px + 66px + 31pt);
+    left:30px;
+    width: 628px;
+    color:darkgoldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17pt;
+    text-align: center;
+}
+@media(min-width: 992px){
+    .settings{
+        position: absolute;
+        top:77px;
+        left:688px;
+        
+        height:854px;
+        width: calc(100% - 688px);
+        width: -webkit-calc(100% - 688px);
+        width:    -moz-calc(100% - 688px);
+        background: lightgray;
+    }
+    
+}
+@media(max-width: 991px){
+    .frame{
+        position:absolute; 
+        top:77px;
+        left: 30px;
+    }
+    
+    .frame img {
+        height: 555px;
+        width: 408px;
+    }
+    .settings{
+        position: absolute;
+        top:662px;
+        width:100%;
+        height:calc(100% - 632px);
+        background: gray;
+    }
+    .cardtitle{
+        position:absolute; 
+        top:calc(77px + 44px);
+        left:30px;
+        width: 408px;
+        color:darkgoldenrod;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+    }
+    .card-sub-title{
+        position:absolute; 
+        top:calc(77px + 44px + 22pt);
+        left:30px;
+        width: 408px;
+        color:darkgoldenrod;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 11pt;
+        text-align: center;
+    }
+}
+
+@media(max-width: 767px){
+    .frame{
+        position:absolute; 
+        top:77px;
+        left: 30px;
+    }
+    
+    .frame img {
+        height: 555px;
+        width: 408px;
+    }
+    
+    .settings{
+        position: absolute;
+        top:662px;
+        width:100%;
+        height:calc(100% - 632px);
+        background: gray;
+    }
+    .cardtitle{
+        position:absolute; 
+        top:calc(77px + 44px);
+        left:30px;
+        width: 408px;
+        color:darkgoldenrod;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        text-align: center;
+    }
+    .card-sub-title{
+        position:absolute; 
+        top:calc(77px + 44px + 22pt);
+        left:30px;
+        width: 408px;
+        color:darkgoldenrod;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 11pt;
+        text-align: center;
+    }
+}
